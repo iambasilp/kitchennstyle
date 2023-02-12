@@ -18668,8 +18668,14 @@ form.search-box {
     }
 
     .navbar-collapse {
-        float: left;
-        text-align: center;
+       position: absolute;
+       top:2rem;
+       left:0;
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       row-gap: 1rem;
+       text-align: center;
         width: 100%;
         background: var(--bg-color);
         padding: 20px;
@@ -18709,23 +18715,16 @@ form.search-box {
         margin-right: 16px;
     }
 
-    .navbar-toggler-icon {
-        background-image: none;
-        padding: 0;
-        width: 34px;
-        height: 34px;
-        display: inline-block;
-        background: #272121;
-        border-radius: 4px;
-        text-align: center;
-    }
+ 
 
     .navbar-toggler-icon.fa {
-        font-size: 20px;
-        line-height: 1.2em;
-        background: var(--primary-color);
-        line-height: 34px;
+        font-size: 24px;
+        margin-top: .4rem;
+       background: none;
         color: #fff;
+    }
+    .nav-fixed .navbar-toggler-icon.fa{
+        color: black;
     }
 
     button.navbar-toggler .icon-close {
