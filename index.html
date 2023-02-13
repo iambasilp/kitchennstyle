@@ -26,6 +26,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="./assets/js/main.js" defer></script>
   </head>
 
   <body>
@@ -40,20 +41,15 @@
               <img src="./assets/images/logo.png" alt="" srcset="">
             </a>
           </div>
-          <button
-            class="navbar-toggler collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav mx-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+          <div class="nav__toggle" id="nav-toggle">
+            <span class="fa icon-expand fa-bars"></span>
+          </div>
+           
+          <div class="collapse navbar-collapse" id="nav-menu">
+            <div class="nav__close" id="nav-close">
+              <span class="fa icon-close fa-times"></span>
+            </div>
+            <ul class="navbar-nav mx-lg-auto my-2 my-lg-0 ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a>
@@ -66,7 +62,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="products.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.htm">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -93,21 +89,21 @@
             </a>
             <!--//search-right-->
           </div>
-          <!-- toggle switch for light and dark theme -->
-          <div class="mobile-position">
-            <nav class="navigation">
-              <div class="theme-switch-wrapper">
-                <label class="theme-switch" for="checkbox">
-                  <input type="checkbox" id="checkbox" />
-                  <div class="mode-container">
-                    <i class="gg-sun"></i>
-                    <i class="gg-moon"></i>
-                  </div>
-                </label>
-              </div>
-            </nav>
-          </div>
-          <!-- //toggle switch for light and dark theme -->
+         <!-- toggle switch for light and dark theme -->
+         <div class="mobile-position nav__theme">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="mode-container">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
+            </div>
+          </nav>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
         </nav>
       </div>
     </header>
@@ -123,6 +119,9 @@
                 <div class="banner-info header-hero-19">
                   <p class="w3hny-tag">Loyal to quality</p>
                   <h3 class="title-hero-19">An incredible planet of modern kitchen.</h3>
+                  <p class="my-2 heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi veniam debitis nihil culpa quos optio, sit id fuga assumenda.
+                  </p>
                   <a href="about.html" class="btn btn-style btn-primary mt-4"
                     >Read More
                   </a>
@@ -138,6 +137,9 @@
                 <div class="banner-info header-hero-19">
                   <p class="w3hny-tag">Special every day</p>
                   <h3 class="title-hero-19">your kitchen from dubai get it in india</h3>
+                  <p class="my-2 heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi veniam debitis nihil culpa quos optio, sit id fuga assumenda.
+                  </p>
                   <a href="about.html" class="btn btn-style btn-primary mt-4"
                     >Read More
                   </a>
@@ -153,6 +155,9 @@
                 <div class="banner-info header-hero-19">
                   <p class="w3hny-tag">Loyal to quality</p>
                   <h3 class="title-hero-19">Elegance your way of kitchen style</h3>
+                  <p class="my-2 heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi veniam debitis nihil culpa quos optio, sit id fuga assumenda.
+                  </p>
                   <a href="about.html" class="btn btn-style btn-primary mt-4"
                     >Read More
                   </a>
@@ -168,6 +173,9 @@
                 <div class="banner-info header-hero-19">
                   <p class="w3hny-tag">Special every day</p>
                   <h3 class="title-hero-19">Stand out from others.</h3>
+                   <p class="my-2 heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi veniam debitis nihil culpa quos optio, sit id fuga assumenda.
+                  </p>
                   <a href="about.html" class="btn btn-style btn-primary mt-4"
                     >Read More
                   </a>
