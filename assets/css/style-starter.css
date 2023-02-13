@@ -19521,6 +19521,10 @@ p.w3ban-para {
     display: grid;
     grid-template-columns: 1fr 10fr;
     grid-gap: 20px;
+    transition: transform ease 0.3s;
+}
+.w3lgrids-1.box-wrap:hover{
+    transform: translateX(15px);
 }
 
 .w3lgrids-1.box-wrap a {
