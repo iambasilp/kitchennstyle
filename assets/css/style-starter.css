@@ -18849,7 +18849,7 @@ form.search-box {
 }
 
 .w3l-main-slider .banner-view {
-    background: url(../images/bannertest1.jpg) no-repeat center;
+    background: url(../images/banners/banner1.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -18860,17 +18860,17 @@ form.search-box {
     background-size: cover;
 }
 .w3l-main-slider .banner-top2 {
-    background: url(../images/bannertest2.jpg) no-repeat center;
+    background: url(../images/banners/banner2.jpg) no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-    background: url(../images/bannertest3.jpg) no-repeat center;
+    background: url(../images/banners/banner3.jpg) no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top4 {
-    background: url(../images/bannertest4.jpg) no-repeat center;
+    background: url(../images/banners/banner4.jpg) no-repeat center;
     background-size: cover;
 }
 .w3l-main-slider .banner-view:before {
@@ -20183,7 +20183,7 @@ p.w3ban-para {
 /*--//video--*/
 /*--/inner-banner--*/
 .inner-banner {
-    background: url(../images/about-banner.jpg) no-repeat center;
+    background: url(../images/about/about-banner.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20406,7 +20406,7 @@ p.abinfo-para {
 
 /*--//progress-info--*/
 .w3l-join-main {
-    background: url(../images/about-sub-banner.jpg) no-repeat center;
+    background: url(../images/about/about-bottom-banner.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
