@@ -4879,6 +4879,7 @@ fieldset:disabled .btn {
     padding: 1rem 1rem
 }
 
+
 .card-title {
     margin-bottom: .5rem
 }
@@ -19698,10 +19699,15 @@ p.w3ban-para {
 }
 
 .w3l-features .grids-1.box-wrap {
+    overflow: hidden;
     padding: 0rem 0rem 1rem 0rem;
     background: var(--bg-color);
     border-radius: var(--border-radius);
     text-align: center;
+    transition: transform ease 0.3s;
+}
+.w3l-features .grids-1.box-wrap:hover{
+    transform: translateY(-10px);
 }
 .w3l-features .grids-1.box-wrap p{
     font-size: .9rem;
@@ -19710,9 +19716,12 @@ p.w3ban-para {
 }
 .w3l-features .grids-1.box-wrap img{
     width:100%;
+    overflow: hidden;
     height:140px;
     object-fit: cover;
+    transition: all ease-in-out 0.3s;
 }
+
 
 
 .w3l-features .grids-1.box-wrap:hover .icon {
